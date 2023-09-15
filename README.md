@@ -1,2 +1,2 @@
 # https5111
-HTML/CSS-JS-class
+HTML/CSS and JS class.

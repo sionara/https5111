@@ -1,0 +1,29 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transform-onclick {
+  transition: all 4s;
+  transform: scale(2) rotate(1440deg);
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  color: #000;
+}
+
+button {
+  margin-top: 100px;
+  transition: all 1s;
+}
+
+button:hover {
+  background-color: red;
+  transform: scale(3);
+}
